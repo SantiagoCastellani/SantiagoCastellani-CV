@@ -1,5 +1,5 @@
 function otoño() {
-    document.getElementById("sobre-mi").style.background = "url('/img/otoño.jpg')";
+    document.getElementById("sobre-mi").style.background = "url('./img/otoño.jpg')";
     document.getElementById("texto").innerHTML = "Estas en Otoño";
     document.getElementById("texto").style.color = "green";
     document.getElementById("titulon").style.color = "red";
@@ -9,7 +9,7 @@ function otoño() {
 }
 
 function invierno() {
-    document.getElementById("sobre-mi").style.background = "url('/img/invierno.jpg')";
+    document.getElementById("sobre-mi").style.background = "url('./img/invierno.jpg')";
     document.getElementById("texto").innerHTML = "Estas en Invierno";
     document.getElementById("texto").style.color = "blue";
     document.getElementById("titulon").style.color = "black";
@@ -19,7 +19,7 @@ function invierno() {
 }
 
 function primavera() {
-    document.getElementById("sobre-mi").style.background = "url('/img/flores2.jpg')";
+    document.getElementById("sobre-mi").style.background = "url('./img/flores2.jpg')";
     document.getElementById("texto").innerHTML = "Estas en Primavera";
     document.getElementById("texto").style.color = "yellow";
     document.getElementById("titulon").style.color = "yellow";
@@ -29,7 +29,7 @@ function primavera() {
 }
 
 function verano() {
-    document.getElementById("sobre-mi").style.background = "url('/img/verano.jpg')";
+    document.getElementById("sobre-mi").style.background = "url('./img/verano.jpg')";
     document.getElementById("texto").innerHTML = "Estas en Verano";
     document.getElementById("titulon").style.color = "blue";
     document.getElementById("titulon").style.background = "yellow";
